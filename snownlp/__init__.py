@@ -10,6 +10,7 @@ from .summary import textrank
 from .summary import words_merge
 
 
+
 class SnowNLP(object):
 
     def __init__(self, doc):
@@ -83,3 +84,5 @@ class SnowNLP(object):
             wm = words_merge.SimpleMerge(self.doc, ret)
             return wm.merge()
         return ret
+    def test():
+        aaaa = 4
